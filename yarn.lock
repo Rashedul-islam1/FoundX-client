@@ -125,6 +125,21 @@
     "@react-types/button" "3.10.1"
     "@react-types/shared" "3.26.0"
 
+"@heroui/card@^2.2.10":
+  version "2.2.10"
+  resolved "https://registry.yarnpkg.com/@heroui/card/-/card-2.2.10.tgz#cae964bd48fbd6c3bb1745adf811b93926eb38b3"
+  integrity sha512-VunP298v2FAtBg8U8ZLPIJUz4AIBSqjeaazVxGhN2ld3ipqygLNYCHRkG5UPwN1qYdsOEbx1ebMWgasPklwoLQ==
+  dependencies:
+    "@heroui/react-utils" "2.1.4"
+    "@heroui/ripple" "2.2.8"
+    "@heroui/shared-utils" "2.1.3"
+    "@heroui/use-aria-button" "2.2.5"
+    "@react-aria/button" "3.11.0"
+    "@react-aria/focus" "3.19.0"
+    "@react-aria/interactions" "3.22.5"
+    "@react-aria/utils" "3.26.0"
+    "@react-types/shared" "3.26.0"
+
 "@heroui/code@2.2.6":
   version "2.2.6"
   resolved "https://registry.npmjs.org/@heroui/code/-/code-2.2.6.tgz"
@@ -149,6 +164,11 @@
   resolved "https://registry.npmjs.org/@heroui/dom-animation/-/dom-animation-2.1.1.tgz"
   integrity sha512-7+sZXkJrM3FHvcxc5Ul2vwUDsSpFP3qAifJYfc7ZcinsYLtKEtBH1ElBwmZt5XCM8DvZThR2RTYB3/j+MTyWvg==
 
+"@heroui/dom-animation@2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@heroui/dom-animation/-/dom-animation-2.1.2.tgz#e04609ae1585096e187967701af098fae13f7eee"
+  integrity sha512-DX5zGe60gjKIk1sYMPGgR4shOsfpL/1xH0EN18o0SyBiJuGtrii2nXW+0sbsapsW6KzqVYMmXzfVhWkAWR190Q==
+
 "@heroui/form@2.1.8":
   version "2.1.8"
   resolved "https://registry.npmjs.org/@heroui/form/-/form-2.1.8.tgz"
@@ -171,6 +191,15 @@
     "@heroui/shared-utils" "2.1.2"
     "@heroui/system" "2.4.6"
     "@heroui/use-measure" "2.1.1"
+
+"@heroui/image@^2.2.6":
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/@heroui/image/-/image-2.2.6.tgz#aaa9f13c4d7c30e6934ab79a6259e57948af6a17"
+  integrity sha512-x7nEUYGziy7Pr7s9L2hpXwbHnvweyhw4suggwSw0JVQzZh54zyY8NJZYqQyTAnXbWYAtX/LTkn88pRfPQUaDZA==
+  dependencies:
+    "@heroui/react-utils" "2.1.4"
+    "@heroui/shared-utils" "2.1.3"
+    "@heroui/use-image" "2.1.3"
 
 "@heroui/input@2.4.9":
   version "2.4.9"
@@ -257,6 +286,11 @@
   resolved "https://registry.npmjs.org/@heroui/react-rsc-utils/-/react-rsc-utils-2.1.1.tgz"
   integrity sha512-+U/OPqE4HpjRObBhSSLqtUMV5/G+rnf5Xd+ntP1gzC0HTVzN9WG9rRSNyhy7b+fAWGOR2kqOaon1LDZE6zmK6A==
 
+"@heroui/react-rsc-utils@2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@heroui/react-rsc-utils/-/react-rsc-utils-2.1.2.tgz#02c463a612034b1abe0d437f9a076759b532e370"
+  integrity sha512-5qaYUj0eX+y8OFvPsv01RdfHZv8Z/do+3tdaDmq/uNFsyDc+lgea9PyqVZbhv6nf4ido/hUlPDB6KAGqiAeKwQ==
+
 "@heroui/react-utils@2.1.3":
   version "2.1.3"
   resolved "https://registry.npmjs.org/@heroui/react-utils/-/react-utils-2.1.3.tgz"
@@ -264,6 +298,14 @@
   dependencies:
     "@heroui/react-rsc-utils" "2.1.1"
     "@heroui/shared-utils" "2.1.2"
+
+"@heroui/react-utils@2.1.4":
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/@heroui/react-utils/-/react-utils-2.1.4.tgz#e354296295aebf8f23e6c4286dd98798c5b7ed4f"
+  integrity sha512-aXZtrgrGkW3Z892BQ5crP/ttdpTaNtv5N3UYoH2wVyFiGj+ypYfFkZRB/wppBRgf5hsy5liw+fqC/Yg5n3J8qw==
+  dependencies:
+    "@heroui/react-rsc-utils" "2.1.2"
+    "@heroui/shared-utils" "2.1.3"
 
 "@heroui/ripple@2.2.7":
   version "2.2.7"
@@ -274,6 +316,15 @@
     "@heroui/react-utils" "2.1.3"
     "@heroui/shared-utils" "2.1.2"
 
+"@heroui/ripple@2.2.8":
+  version "2.2.8"
+  resolved "https://registry.yarnpkg.com/@heroui/ripple/-/ripple-2.2.8.tgz#0c6d959305c420afe43030354c402b29ce185701"
+  integrity sha512-KtOUtetFvKfQn3Lg20LO/Vxzyu7Apj44TcbIOYUhe/EZtZSkqfxQL7A+SwzCiXB9ZVat94UkMgV/wpG3CvetGA==
+  dependencies:
+    "@heroui/dom-animation" "2.1.2"
+    "@heroui/react-utils" "2.1.4"
+    "@heroui/shared-utils" "2.1.3"
+
 "@heroui/shared-icons@2.1.1":
   version "2.1.1"
   resolved "https://registry.npmjs.org/@heroui/shared-icons/-/shared-icons-2.1.1.tgz"
@@ -283,6 +334,11 @@
   version "2.1.2"
   resolved "https://registry.npmjs.org/@heroui/shared-utils/-/shared-utils-2.1.2.tgz"
   integrity sha512-i058k/jP1FsZIJlMrpMTchnGH+jx07yhvZjC9zsxvQX/zlRcoRMpxAC5qi6/p2UYrnFDjiPY0WWuDdCML7Gtew==
+
+"@heroui/shared-utils@2.1.3":
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/@heroui/shared-utils/-/shared-utils-2.1.3.tgz#317403e8d56f7cc90953fa46386286b6b0f85502"
+  integrity sha512-MNpo+jcu6xyicSRyxWgL4rNw4xH0XziUR/bhs01GydlGhfFN8n/Y4vKAWfL5xamehiEJX1N0IKAbFadt3wlGAA==
 
 "@heroui/snippet@2.2.10":
   version "2.2.10"
@@ -390,6 +446,18 @@
     "@react-types/button" "3.10.1"
     "@react-types/shared" "3.26.0"
 
+"@heroui/use-aria-button@2.2.5":
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/@heroui/use-aria-button/-/use-aria-button-2.2.5.tgz#376639de9e93779839020f5abc076895019580ad"
+  integrity sha512-3dbtK6Q9QWuRTzry+XQ/awa4PVhmhLNcasermWrJ4PwYOQwJFzB+bslFqrjhxTYu45x5fGe54iCsT3Xx3UY80g==
+  dependencies:
+    "@heroui/shared-utils" "2.1.3"
+    "@react-aria/focus" "3.19.0"
+    "@react-aria/interactions" "3.22.5"
+    "@react-aria/utils" "3.26.0"
+    "@react-types/button" "3.10.1"
+    "@react-types/shared" "3.26.0"
+
 "@heroui/use-aria-link@2.2.5":
   version "2.2.5"
   resolved "https://registry.npmjs.org/@heroui/use-aria-link/-/use-aria-link-2.2.5.tgz"
@@ -407,6 +475,14 @@
   resolved "https://registry.npmjs.org/@heroui/use-clipboard/-/use-clipboard-2.1.2.tgz"
   integrity sha512-D0TG7QtS7QetDJAb6h4AnxXcjgFcK1Ldt+H+W3ZPfjANGSGeQTh4WgO4jiTbETJMF8V6Xbplu9IUd6daC+J/YA==
 
+"@heroui/use-image@2.1.3":
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/@heroui/use-image/-/use-image-2.1.3.tgz#fef250db487d365104ca715d9a8daceb44d8244a"
+  integrity sha512-d0jqI0Ttz/d68E5O2PHPSQJMftCpkwT+LECJz/7aZIZQqX8KJJA5WymDTDANTtASCO45wm6j8dxhRgRwaRVoTw==
+  dependencies:
+    "@heroui/react-utils" "2.1.4"
+    "@heroui/use-safe-layout-effect" "2.1.2"
+
 "@heroui/use-is-mobile@2.2.2":
   version "2.2.2"
   resolved "https://registry.npmjs.org/@heroui/use-is-mobile/-/use-is-mobile-2.2.2.tgz"
@@ -423,6 +499,11 @@
   version "2.1.1"
   resolved "https://registry.npmjs.org/@heroui/use-safe-layout-effect/-/use-safe-layout-effect-2.1.1.tgz"
   integrity sha512-5852e3gpo6cI2o3LBvG5m2M2JnrwhaoGk9KuemWMgJze9PD0Cy5ikJZMZ1aDevUalenYoxlHhKJ9NYqF/1Kb6w==
+
+"@heroui/use-safe-layout-effect@2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@heroui/use-safe-layout-effect/-/use-safe-layout-effect-2.1.2.tgz#3b4dfd4f959c025e2c804c77afe853535c91f9c6"
+  integrity sha512-AVfgvaO2zw30JDKj1LyFPzz+JULMygC/TUK/5g4YA3O/4OwgS8lT8XRNM721zwmYkntFPBx7lYcIRcm8hPWkXA==
 
 "@heroui/use-scroll-position@2.1.1":
   version "2.1.1"
@@ -1933,6 +2014,11 @@ data-view-byte-offset@^1.0.1:
     call-bound "^1.0.2"
     es-errors "^1.3.0"
     is-data-view "^1.0.1"
+
+date-fns@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-4.1.0.tgz#64b3d83fff5aa80438f5b1a633c2e83b8a1c2d14"
+  integrity sha512-Ukq0owbQXxa/U3EGtsdVBkR1w7KOQ5gIBqdH2hkvknzZPYvBxb/aa6E8L7tmjFtkwZBu3UXBbjIgPo/Ez4xaNg==
 
 debug@^3.2.7:
   version "3.2.7"
